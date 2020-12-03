@@ -116,4 +116,8 @@ Memory Partition
 Continous & Non continous.
 Continous -> Copy
 Non Contigous -> Paging & Segmentation
+Physical address & Logical address -> https://www.youtube.com/watch?v=CmTMr_x3NwY
+Need of logical/virtual address -> Security - so that user cant access the memory directlty.
+
+
 
