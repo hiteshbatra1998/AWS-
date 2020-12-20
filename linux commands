@@ -1,6 +1,21 @@
-ifconfig - to check mac address.
-pwd -  to get absolute path of current directory 
-cd - cd.. to get one directory up , cd filenmae to move in filename , cd to go to home directory , cd hitesh\Batra (if file name has 2 word).
-
-
-
+Linux’s shell is case sensitive (write file name accordingly)
+->ifconfig - to check mac address.
+->pwd -  to get absolute path of current directory An example of an absolute path is /home/username.
+->cd - cd.. to get one directory up , cd filenmae to move in filename , cd to go to home directory , cd Hitesh\Batra (if file name has 2 word) 
+      You can also type absolute path to go in particular directory like cd /home/username/DirectoryName ( this is true for anyother command like ls etc ).
+->ls - use to display the files/content of current directory. 
+    ls -a will show the hidden files
+    ls -R will list all the files in the sub-directories as well
+    ls -r	list in reverse order
+    ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
+    ls -la	list long format including hidden files
+    ls -s	list file size
+    ls -S	sort by file size
+    ls -t	sort by time & date
+    ls -X	sort by extension name
+ 
+->cat - (short for concatenate) used to list the contents of a file on the standard output
+       cat file.txt.
+       cat > filename.extenstion creates a new file 
+       cat filename1.extenstion filename2.extenstion>filename3.extenstion joins two files (1 and 2) and stores the output of them in a new file (3)
+        to convert a file to upper or lower case use, cat filename | tr a-z A-Z >output.txt (ask sahil)
